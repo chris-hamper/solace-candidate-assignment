@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <br />
       <br />
-      <table>
+      <table style={{ width: '100%' }}>
         <thead>
           <tr>
             <th>First Name</th>
