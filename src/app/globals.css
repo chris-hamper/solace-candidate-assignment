@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* TODO: use per-component styling instead, if appropriate */
+th, td {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color: #e9f0ee;
+}
+
+th {
+  color: #fff;
+  background-color: #1d4339;
+  border-right: 1px solid #fff;
+}
